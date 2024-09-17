@@ -8,12 +8,21 @@
     android:orientation="vertical"
     tools:context=".Dashboard">
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Quiz"
+        android:id="@+id/btnStartQuiz"
+        android:layout_margin="30dp"
+        />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:id="@+id/tvResult"
-
+        android:layout_below="@id/btnStartQuiz"
+        android:text="RESULT : "
         />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton

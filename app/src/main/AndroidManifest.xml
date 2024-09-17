@@ -13,6 +13,12 @@
         android:theme="@style/Theme.IntentsAndTypes"
         tools:targetApi="31">
         <activity
+            android:name=".Quiz"
+            android:exported="false" />
+        <activity
+            android:name=".InstaLogin"
+            android:exported="false" />
+        <activity
             android:name=".Dashboard"
             android:exported="false" />
         <activity
